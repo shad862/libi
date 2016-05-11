@@ -1,10 +1,6 @@
-/*
- * @author shad862
- */
-
 lazy val akkaVersion = "2.4.4"
 
-name := "libi"
+name := "com/iodum/libi"
 version := "1.0"
 scalaVersion := "2.11.8"
 
@@ -39,6 +35,7 @@ libraryDependencies ++= Seq(
 
   "org.slf4j" % "slf4j-api" % "1.7.21" withSources() withJavadoc(),
   "ch.qos.logback" % "logback-classic" % "1.1.7" withSources() withJavadoc()
-
 )
+
+mainClass in (Compile, run) := Some("com.iodum.libi.LastWordStubService")
 

@@ -4,7 +4,6 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import org.slf4j.LoggerFactory
 
@@ -30,5 +29,4 @@ object LastWordStubService extends App {
   }
 
   Http().bindAndHandle(routes , "localhost", 80)
-
 }

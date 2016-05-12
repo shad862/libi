@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/libi -Dhttp.port=${PORT}
+web: target/universal/stage/bin/com-iodum-libi -Dhttp.port=${PORT}

@@ -39,3 +39,5 @@ libraryDependencies ++= Seq(
 
 mainClass in (Compile, run) := Some("com.iodum.libi.LastWordStubService")
 
+enablePlugins(JavaAppPackaging)
+//enablePlugins(JavaServerAppPackaging)

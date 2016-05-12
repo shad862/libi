@@ -28,5 +28,5 @@ object LastWordStubService extends App {
       }
   }
 
-  Http().bindAndHandle(routes , "localhost", 80)
+  Http().bindAndHandle(routes , "localhost", 443)
 }
